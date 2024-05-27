@@ -15,9 +15,6 @@ public class processoSeletivo {
             boolean continuarTentando = true;
             boolean atendeu = false;
         
-
-            
-
             do{
                 atendeu = atender();
                 continuarTentando = !atendeu;
