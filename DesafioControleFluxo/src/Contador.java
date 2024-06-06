@@ -12,6 +12,7 @@ public static void main(String[] args) {
 
     try{
         terminal.close();
+        
         contar(parametroUm, parametroDois);
     }catch (parametrosInvalidosException exception){
         System.out.println(" O segundo parametro deve ser maior que o primeiro");
